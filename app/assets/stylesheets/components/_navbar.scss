@@ -1,0 +1,25 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: rgb(1, 12, 25);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+
+  p, a {
+    color: white;
+  }
+
+  a:hover {
+    color: rgb(25, 96, 151);
+  }
+
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  height: 40px;
+  border-radius: 5px;
+}

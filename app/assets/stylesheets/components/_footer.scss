@@ -1,0 +1,46 @@
+.footer {
+  background: rgb(1, 12, 25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9vh;
+  padding: 0px 5vw;
+  color: rgba(255,255,255,0.4);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+  transform: scale(104%);
+  transition: 0.1s;
+}
+.footer .fa-heart {
+  color: rgba(255,255,255,0.4);
+}
+
+.footer .fa-heart:hover {
+  transition: 0.5s;
+  transform: scale(105%);
+  color: rgb(25, 96, 151)
+}
+
+.footer-copyright:hover {
+    .fa-heart {
+    transition: 0.2s;
+    transform: scale(115%) translateX(5px);
+    color: rgb(25, 96, 151);
+  }
+}

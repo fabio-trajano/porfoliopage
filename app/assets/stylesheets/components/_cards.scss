@@ -1,0 +1,88 @@
+.card-profile {
+  background: rgb(1, 12, 25);
+  color: white;
+  width: 30vw;
+  height: 70vh;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.8);
+
+
+  p {
+    margin-left: 4%;
+    margin-right: 4%;
+    line-height: 1.2rem;
+    bottom:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+  }
+
+  img {
+    height: 16vw;
+    width: 16vw;
+    border-radius: 50%;
+    position: relative;
+    border: solid 4px rgba(25, 96, 151, 1);;
+    top: -2vw;
+    left: -2vw;
+  }
+
+  h2 {
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+  }
+
+}
+
+
+
+.container-skills {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 5vh;
+  justify-items: center;
+  align-items: center;
+}
+
+.card-skills {
+  background: rgb(1, 12, 25);
+  color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.8);
+  text-align: center;
+
+  h2 {
+    font-family: 'Share Tech Mono', monospace;
+  }
+}
+
+.card-projects {
+  background: rgb(1, 12, 25);
+  color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.8);
+  text-align: center;
+
+  h2 {
+    font-family: 'Share Tech Mono', monospace;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-profile {
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 5vw;
+  }
+
+  .container-skills {
+    row-gap: 5vw;
+    width: 100%;
+    height: 140vh;
+  }
+}

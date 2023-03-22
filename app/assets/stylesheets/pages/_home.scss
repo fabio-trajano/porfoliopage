@@ -1,0 +1,23 @@
+// Specific CSS for your home-page
+
+.home-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 15vh 5vw 5vh 5vw;
+  column-gap: 5vw;
+}
+
+@media (max-width: 600px) {
+  .home-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 12vh 5vw 12vh 5vw;
+    column-gap: 5vw;
+
+  }
+}
+
+body {
+  background-image: url("background.png");
+  background-position: center;
+}

@@ -10,6 +10,7 @@
   bottom: 0;
   left: 0;
   width: 100vw;
+  font-family: 'Share Tech Mono', monospace;
 }
 .footer-links {
   display: flex;
@@ -31,11 +32,6 @@
   color: rgba(255,255,255,0.4);
 }
 
-.footer .fa-heart:hover {
-  transition: 0.5s;
-  transform: scale(105%);
-  color: rgb(25, 96, 151)
-}
 
 .footer-copyright:hover {
     .fa-heart {
